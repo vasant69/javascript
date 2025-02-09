@@ -3,7 +3,7 @@
 //1)  arrays are resizable and can contain a mix of different data types
 //2) arrays are zero-indexed
 //3)  array-copy operations create shallow copies. (All standard built-in copy operations with any JavaScript objects create shallow copies, rather than deep copies).
-
+//
 // array banate hai.
 let fruits = ['mango', 'apple', 'banana'] 
 
