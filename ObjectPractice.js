@@ -30,3 +30,18 @@ for(let key in tea){
 // DELETE THE PROPERTY FROM OBJECT.
 delete tea.color
 console.log(tea)
+
+// <IMP> here are we are just providing the reference of object not creating any copy.
+// const anothercopy = tea
+
+
+
+Object.prototype.chai = function(){
+    console.log("chai aur code")
+}
+const chai={
+    name:"chai",
+    type:"caffine",
+    caffine:true
+} 
+chai.chai() // chai
