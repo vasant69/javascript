@@ -20,4 +20,3 @@ console.log(doubled);
 // map() method doesn't change the original array. It returns a new array with the results of calling a function for every array element.   
 // map() method is used to create a new array by manipulating the elements of the original array.
 
-// 2) forEach() method
